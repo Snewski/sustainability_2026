@@ -11,14 +11,6 @@ knitr::opts_chunk$set(echo = TRUE)
 
 
 ```{r}
-install.packages("sf")
-install.packages("osrm")
-install.packages("leaflet")
-
-```
-
-
-```{r}
 
 library(stringr)
 library(sf)
