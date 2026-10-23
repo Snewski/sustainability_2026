@@ -135,7 +135,7 @@ Bytteboxen_map <- leaflet() %>%
   addProviderTiles("Esri.WorldStreetMap") %>%
   #addTiles() %>%  # Add a base map
   addPolygons(data = bytteboxen_isochrones_sf, color = "green", weight = 1, fillOpacity = 0.4, group = "Bytteboxen Isochrones") %>%  # bytteboxen isochrones
-  addMarkers(data = bytteboxen_data, popup = ~place_names, group = "Byttenboxen Locations") %>%  # Byttenboxen points
+  addMarkers(data = bytteboxen_data, popup = ~place_names, group = "Bytteboxen Locations") %>%  # Byttenboxen points
   addLayersControl(
     overlayGroups = c("Bytteboxen Isochrones","Bytteboxen Locations"),
     options = layersControlOptions(collapsed = FALSE)
