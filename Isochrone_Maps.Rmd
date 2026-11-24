@@ -235,7 +235,7 @@ Bytteboxen_map <- leaflet() %>%
     options = layersControlOptions(collapsed = FALSE)
   )
 
-saveWidget(Bytteboxen_map, file = "Out/index.html")
+saveWidget(Bytteboxen_map, file = "index.html")
 
 ```
 
